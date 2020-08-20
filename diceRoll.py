@@ -1,6 +1,7 @@
 import random
 def Main():
-    Input = int(input("how many rolls would you like?"))
+    Input = int(input("how many rolls would you like?\n"))
+    print("Your rolls:")
     Roll(Input)
 
 def Roll(Input):
